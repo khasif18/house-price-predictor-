@@ -1,0 +1,30 @@
+# AI/ML Task 2 Title: 
+## Feature Engineering, Model Optimization & Performance Comparison
+
+Objective : 
+
+## Objective
+
+The objective of this project is to build and compare multiple regression models using the California Housing dataset. The workflow includes data exploration, preprocessing, feature scaling, model training, evaluation, and performance comparison.
+
+Dataset Information :
+
+
+## Dataset
+
+Dataset: California Housing Dataset
+
+Source: Scikit-learn
+
+Target Variable:
+- MedHouseVal (Median House Value)
+
+Features:
+- MedInc
+- HouseAge
+- AveRooms
+- AveBedrms
+- Population
+- AveOccup
+- Latitude
+- Longitude
