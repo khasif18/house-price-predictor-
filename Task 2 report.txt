@@ -1,30 +1,82 @@
-# AI/ML Task 2 Title: 
-## Feature Engineering, Model Optimization & Performance Comparison
+AI/ML Internship – Task 2 Progress Report (Up to Day 3)
+Project Title
 
-Objective : 
+Feature Engineering, Model Optimization & Performance Comparison using California Housing Dataset
 
-## Objective
+Objective
 
-The objective of this project is to build and compare multiple regression models using the California Housing dataset. The workflow includes data exploration, preprocessing, feature scaling, model training, evaluation, and performance comparison.
+The objective of this project is to build and compare multiple machine learning regression models for predicting house prices using the California Housing Dataset. The project follows a complete machine learning workflow, including data exploration, preprocessing, model training, evaluation, and performance comparison.
 
-Dataset Information :
+Day 1 – Dataset Exploration
+Activities Completed
+Set up the project environment using Jupyter Notebook.
+Imported the required Python libraries:
+Pandas
+NumPy
+Matplotlib
+Scikit-learn
+Loaded the California Housing Dataset from Scikit-learn.
+Explored the dataset using:
+head()
+info()
+describe()
+columns
+isnull().sum()
+Observations
+Dataset contains 20,640 samples.
+Total 8 input features and 1 target variable.
+No missing values were found.
+Target variable:
+MedHouseVal (Median House Value)
+Day 2 – Data Preprocessing
+Activities Completed
+Separated input features (X) and target variable (y).
+Split the dataset into training and testing sets using an 80:20 ratio.
+Applied StandardScaler for feature scaling.
+Generated scaled training and testing datasets for model training.
+Purpose
 
+Feature scaling ensures that all numerical features are on a comparable scale, helping regression models learn more effectively and improving model performance.
 
-## Dataset
+Day 3 – Model Training & Evaluation
+Models Implemented
+Linear Regression
+Ridge Regression
+Decision Tree Regressor
 
-Dataset: California Housing Dataset
+Each model was trained using the preprocessed training dataset and evaluated using the testing dataset.
 
-Source: Scikit-learn
+Evaluation Metrics
 
-Target Variable:
-- MedHouseVal (Median House Value)
+The following performance metrics were used:
 
-Features:
-- MedInc
-- HouseAge
-- AveRooms
-- AveBedrms
-- Population
-- AveOccup
-- Latitude
-- Longitude
+Root Mean Squared Error (RMSE)
+R² Score (Coefficient of Determination)
+Model Comparison
+Model	RMSE	R² Score
+Decision Tree Regressor	0.724234	0.599732
+Ridge Regression	0.745557	0.575816
+Linear Regression	0.745581	0.575788
+Current Result
+
+Among the three regression models evaluated, the Decision Tree Regressor achieved the best performance by producing the lowest RMSE and the highest R² Score. Based on the current evaluation, it is the most suitable model for predicting house prices on this dataset.
+
+Work Completed So Far
+✅ Dataset exploration
+✅ Data preprocessing
+✅ Feature scaling
+✅ Train-test split
+✅ Linear Regression
+✅ Ridge Regression
+✅ Decision Tree Regression
+✅ Model evaluation
+✅ Model performance comparison
+Next Steps (Day 4)
+
+The remaining tasks include:
+
+Creating performance visualizations.
+Generating feature importance plots.
+Exporting the model comparison results.
+Preparing the final project report.
+Finalizing the GitHub repository documentation (README).
